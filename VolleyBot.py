@@ -4,9 +4,9 @@ import requests
 import asyncio
 from discord.ext import tasks, commands
 
-TOKEN = os.getenv("DISCORD_TOKEN")
-CHANNEL_ID = int(os.getenv("CHANNEL_ID"))
-API_URL = os.getenv("API_URL")
+TOKEN = os.getenv("-8XRMkB2iv_YI2L7SWEa40bA_vrYq_zu")
+CHANNEL_ID = int(os.getenv("1442565332501004290"))
+API_URL = os.getenv("https://www.thesportsdb.com/api/v1/json/3/eventsnextleague.php?id=4517")
 
 intents = discord.Intents.default()
 bot = commands.Bot(command_prefix="!", intents=intents)
